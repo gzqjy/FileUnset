@@ -1,0 +1,19 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Outputs and temporaries
+demo_output/
+*.unnested/
+*.tmp
+*.log
+
+# Large samples exceeding GitHub 100MB limit
+sample/111.doc
+sample/.~*
+.~*
